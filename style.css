@@ -77,3 +77,54 @@ nav {
   box-shadow: 0px 0px 10px 0px #ffffff;
   cursor: pointer;
 }
+
+/* xs */
+@media(min-width: 425px) {
+
+  .gameTitle {
+    font-size: 2rem;
+  }
+
+  .game-board {
+    height: 60vw;
+    width: 60vw;
+  }
+}
+
+/* sm */
+/* @media(min-width: 640px) {} */
+
+/* md */
+@media(min-width: 768px) {
+  .gameTitle {
+    font-size: 2rem;
+  }
+
+  .game-board {
+    height: 80vh;
+    width: 80vh;
+  }
+}
+
+/* lg */
+@media(min-width: 1024px) {
+  .gameTitle {
+    font-size: 2rem;
+  }
+
+  .game-board {
+    height: 80vh;
+    width: 80vh;
+  }
+
+  .button {
+    padding-inline: 1.5rem;
+    padding-block: 0.5rem;
+  }
+}
+
+/* xl */
+/* @media(min-width: 1280px) {} */
+
+/* 2xl */
+/* @media(min-width: 1536px) {} */
