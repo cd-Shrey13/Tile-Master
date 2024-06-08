@@ -30,17 +30,17 @@ nav {
 
 .gameTitle {
   color: #ffffff;
-  font-size: 4rem;
+  font-size: 1.5rem;
 }
 
 .button {
   border: none;
-  padding-inline: 1.5rem;
+  padding-inline: 1rem;
   padding-block: 0.5rem;
   border-radius: 12px;
   background-color: brown;
   color: aliceblue;
-  font-weight: 700;
+  font-weight: 600;
   transition: 0.3s;
 }
 
@@ -50,8 +50,8 @@ nav {
 
 
 .game-board {
-  height: 15cm;
-  width: 15cm;
+  height: 90vw;
+  width: 90vw;
   background-color: white;
   padding: 0.3rem;
   display: grid;
