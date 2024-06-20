@@ -126,11 +126,13 @@ nav {
   border: solid black 2px;
   border-radius: 10px;
   transition: 0.3s;
+    box-shadow:  -5px -5px 7px #7b7b7b, inset 5px 5px 7px #ffffff;
+
 }
 
 .btn:hover {
   transform: scale(110%);
-  box-shadow: 0px 0px 10px 0px #ffffff;
+    box-shadow: -5px 5px 7px #7b7b7b, inset 5px -5px 7px #ffffff;
   cursor: pointer;
 }
 
